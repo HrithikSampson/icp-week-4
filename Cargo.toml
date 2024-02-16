@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/week3_ICP_Priject_backend",
+]

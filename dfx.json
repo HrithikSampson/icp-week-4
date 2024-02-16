@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "week3_ICP_Priject_backend": {
+      "candid": "src/week3_ICP_Priject_backend/week3_ICP_Priject_backend.did",
+      "package": "week3_ICP_Priject_backend",
+      "type": "rust"
+    },
+    "week3_ICP_Priject_frontend": {
+      "dependencies": [
+        "week3_ICP_Priject_backend"
+      ],
+      "source": [
+        "src/week3_ICP_Priject_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
