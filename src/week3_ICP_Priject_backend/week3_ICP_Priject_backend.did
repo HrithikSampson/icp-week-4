@@ -1,3 +1,6 @@
-service : {
-    "greet": (text) -> (text) query;
+type Result = variant { Ok; Err : text };
+type Result_1 = variant { Ok : text; Err : text };
+service : () -> {
+  fetch_defillama_tvl : () -> (Result);
+  get_stored_tvl_data : () -> (Result_1) query;
 }
