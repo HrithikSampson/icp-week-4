@@ -1,4 +1,4 @@
-# week3_ICP_Priject
+# week3_ICP_Project
 
 ## Start
 
